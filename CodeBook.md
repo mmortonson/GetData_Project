@@ -8,6 +8,9 @@ The initial data set was downloaded from the UCI Machine Learning Repository
 detailed information is provided in the `README.txt` and 
 `features_info.txt` files that are stored with the full data set.
 
+All variables in this data set were normalized and rescaled to the 
+range [-1, 1], so there are no units.
+
 The `run_analysis.R` script in this repo produces a reduced, tidy data set
 that differs from the original data in three main ways:
 
@@ -54,10 +57,11 @@ interpreted as follows:
   measured (X, Y, or Z), or the magnitude of the 3-dimensional measurement
   computed with the Euclidean norm (`Mag`).
 
-Note that all variables in the original data set were rescaled to the 
-range [-1, 1], which explains why there are some negative values of 
-standard deviations and magnitudes, and why the listed magnitudes are
-not equal to the norms computed from the corresponding X, Y, and Z variables.
+Since all variables in the original data set were rescaled to the 
+range [-1, 1], there are some negative values of 
+standard deviations and magnitudes, and the listed magnitudes are
+not necessarily equal to the norms computed from 
+the corresponding X, Y, and Z variables.
 
 For more details, refer to `README.txt` and `features_info.txt` provided 
 with the original data from the UCI Machine Learning Repository.
