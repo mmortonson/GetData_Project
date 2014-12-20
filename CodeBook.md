@@ -4,7 +4,7 @@ Code book
 ## Data and processing steps
 
 The initial data set was downloaded from the UCI Machine Learning Repository
-([http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]); the link contains a brief description of those data, and more 
+([1]); the link contains a brief description of those data, and more 
 detailed information is provided in the `README.txt` and 
 `features_info.txt` files that are stored with the full data set.
 
@@ -46,7 +46,7 @@ interpreted as follows:
   linear acceleration or angular velocity (depending on the sensor type); 
   if `Jerk` does appear in the name, then the measurement is the time 
   derivative of linear acceleration or angular velocity
-* `mean`/`std`: whether the measurement in the original data set was a 
+* `mean`/`std`: whether the variable in the original data set was a 
   mean value or standard deviation (in either case, the data were averaged
   within each activity-subject subset, so the values in the tidy data set
   are either means of means or means of standard deviations)
@@ -61,3 +61,5 @@ not equal to the norms computed from the corresponding X, Y, and Z variables.
 
 For more details, refer to `README.txt` and `features_info.txt` provided 
 with the original data from the UCI Machine Learning Repository.
+
+[1]: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
