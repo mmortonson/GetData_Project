@@ -2,15 +2,15 @@ GetData_Project
 ===============
 
 This is a course project for the Coursera "Getting and Cleaning Data" 
-class [1]. The assignment is to write an R script that loads smartphone
-activity data from the UCI Machine Learning Repository [2] and performs
+class ([1]). The assignment is to write an R script that loads smartphone
+activity data from the UCI Machine Learning Repository ([2]) and performs
 the following steps:
 
 1. Merge training and test sets.
 2. Extract mean and standard deviation measurements.
 3. Provide descriptive names for the activity types.
 4. Label the measured variables with descriptive names.
-5. Create a tidy data set [3] that contains the average value of each 
+5. Create a tidy data set ([3]) that contains the average value of each 
    variable for every combination of activity type and subject ID.
 
 There are 30 subjects and 6 activity types, so the final tidy data set
@@ -20,9 +20,9 @@ the activity and subject columns, the final tidy data set has 68 columns.
 
 ## Files
 
-* `run_analysis.R`: This is the main script, which reads the initial data
+* `run_analysis.R`: The main R script, which reads the initial data
   set, performs the steps listed above, and writes the tidy data set 
-  (`tidydata.txt`).
+  to `tidydata.txt`.
 * `CodeBook.md`: A code book describing the properties of the data 
   (variables, processing steps, etc.).
 * `README.md`: This file.
